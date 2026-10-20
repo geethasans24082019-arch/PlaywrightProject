@@ -1,7 +1,39 @@
-# Playwright + TypeScript + GenAI/MCP + Cucumber BDD — Hands-On Starter
+# Playwright + TypeScript + GenAI/MCP + Cucumber BDD
 
-A beginner project wiring together every topic from the course outline into one
-working (if minimal) repo. Nothing here is a placeholder — every file runs.
+This project is a **UI automation framework** built using:
+- [Playwright](https://playwright.dev/) for browser automation
+- [Cucumber](https://cucumber.io/) for BDD-style test writing
+- [TypeScript](https://www.typescriptlang.org/) for type safety and maintainability
+
+---
+
+## 📦 Features
+- **BDD**: Write tests in Gherkin syntax (`.feature` files)
+- **Cross-browser**: Run tests on Chromium, Firefox, and WebKit
+- **Parallel execution**: Faster test runs
+- **Hooks**: Before/After scenarios for setup/teardown
+- **Detailed HTML reports**
+- **Page Object Model (POM)** for clean code structure
+
+---
+
+## 🛠 Prerequisites
+- **Node.js** v16+  
+- **npm** or **yarn**
+- Git
+
+---
+
+## 🚀 Installation
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/playwright-cucumber-typescript.git
+
+cd playwright-cucumber-typescript
+
+# Install dependencies
+npm install
+📂 Project Structure
 
 ## How each course topic maps to a file
 
